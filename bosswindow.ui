@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BossWindow</class>
+ <widget class="QMainWindow" name="BossWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget
+{
+	background-color: #FDD935;
+}
+
+QLabel
+{
+font: 17pt &quot;Cooper Black&quot;;
+}
+
+QPushButton
+{
+	font: 15pt &quot;Cooper Black&quot;;
+	background-color: #FDD905 ;
+	border-Radius: 7px;
+	border: 2px solid  black;
+}
+
+QPushButton:hover{
+color: #FDD905;
+	background-color: rgb(0, 0, 0);
+}
+QLineEdit
+{
+	font: 19pt &quot;MV Boli&quot;;
+}</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>331</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="HomeButton">
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="AddButton">
+       <property name="text">
+        <string>Add New Movie</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="EditButton">
+       <property name="text">
+        <string>Edit a Movie</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="RemoveButton">
+       <property name="text">
+        <string>Remove a Movie</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ExitButton">
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

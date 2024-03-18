@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReserveWindow</class>
+ <widget class="QMainWindow" name="ReserveWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget
+{
+	background-color: #FDD935;
+}
+
+QLabel
+{
+font: 17pt &quot;Cooper Black&quot;;
+}
+
+QPushButton
+{
+	font: 15pt &quot;Cooper Black&quot;;
+	background-color: #FDD905 ;
+	border-Radius: 7px;
+	border: 2px solid  black;
+}
+
+QPushButton:hover{
+color: #FDD905;
+	background-color: rgb(0, 0, 0);
+}
+QLineEdit
+{
+	font: 19pt &quot;MV Boli&quot;;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
